@@ -14,5 +14,6 @@ exclude =
     # There's no value in checking tests directory
     tests,
     .tox,
+    sandbox.py,
 
 max-complexity = 10
