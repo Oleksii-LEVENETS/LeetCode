@@ -31,6 +31,11 @@ Follow up: Could you solve it without converting the integer to a string?
 
 class Solution:
     def is_palindrome(self, x: int) -> bool:
+        # start_x = list(str(x))
+        # print("start_x: ", start_x)
+        # reversed_x = start_x[::-1]
+        # print("reversed_x: ", reversed_x)
+
         start_x = x
         reversed_x = 0
         while x > 0:
